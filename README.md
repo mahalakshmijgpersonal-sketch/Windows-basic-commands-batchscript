@@ -31,23 +31,41 @@ Create a directory named "my-folder"
 
 Remove the directory "my-folder"
 
+
+<img width="541" height="111" alt="image" src="https://github.com/user-attachments/assets/4718c611-05f8-428c-9716-9bf7ad6932a3" />
+
+
 ## COMMAND AND OUTPUT
 
 
 Create the file Rose.txt
+
+
+
+<img width="604" height="109" alt="image" src="https://github.com/user-attachments/assets/d9fed525-96a3-4826-98f9-668f3a8dbbe3" />
 
 ## COMMAND AND OUTPUT
 
 
 Create the file hello.txt using echo and redirection
 
+
+
+<img width="660" height="137" alt="image" src="https://github.com/user-attachments/assets/0d348bd0-2e3e-4abb-9b00-8ae4b7daae37" />
+
 ## COMMAND AND OUTPUT
 
 Copy the file hello.txt into the file hello1.txt
 
+
+<img width="635" height="117" alt="image" src="https://github.com/user-attachments/assets/39ec7767-558a-483f-84a1-2aa3303916a2" />
+
+
 ## COMMAND AND OUTPUT
 
 Remove the file hello1.txt
+
+
 
 ## COMMAND AND OUTPUT
 
@@ -67,11 +85,20 @@ Compare the file hello.txt and rose.txt
 ## Exercise 2: Advanced Batch Scripting
 Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
 
+@echo off
+set name=John
+echo Hello, %name%
+pause
+
 
 
 
 
 ## OUTPUT
+
+
+<img width="1235" height="173" alt="image" src="https://github.com/user-attachments/assets/0fa4bfbf-3f48-4eda-ae98-f49f9a728f4b" />
+
 
 
 
@@ -82,20 +109,64 @@ Display whether the number is odd or not.
 Ask the user if they want to check another number.
 Repeat the process if the user enters Y, and exit with a thank-you message if the user enters N.
 Handle invalid inputs for the continuation prompt (Y/N) gracefully.
+@echo off
+
+:START
+
+set /p num=Enter a number: 
+
+set /a rem=%num% %% 2
+
+if %rem%==0 (
+    echo The number is Even
+) else (
+    echo The number is Odd
+)
+
+set /p choice=Do you want to continue (Y/N)? 
+
+if /I "%choice%"=="Y" goto START
+if /I "%choice%"=="N" goto END
+
+echo Invalid Input
+goto START
+
+:END
+echo Thank You
+pause
+
+
+
 
 
 
 ## OUTPUT
+<img width="1232" height="528" alt="image" src="https://github.com/user-attachments/assets/a93f7325-907e-4530-a65b-2618e676f754" />
+
 
 
 
 
 Write a batch file that uses a FOR loop to iterate over a sequence of numbers (1 to 5) and displays each number with the label Number:. The output should pause at the end.
+@echo off
+
+for /L %%i in (1,1,5) do (
+    echo Number: %%i
+)
+
+pause
+
 
 
 
 
 ## OUTPUT
+
+
+
+<img width="1236" height="396" alt="image" src="https://github.com/user-attachments/assets/b88953c8-2821-4a08-8434-8c10159a86bb" />
+
+
 
 
 
@@ -107,8 +178,22 @@ Use the IF EXIST conditional statement.
 Make sure the script works for files located in the same directory as the batch file.
 Use pause to keep the command window open after displaying the message.
 Expected Output (if the file exists):
+@echo off
+
+if exist sample.txt (
+    echo sample.txt exists
+) else (
+    echo sample.txt does not exist
+)
+
+pause
+
 
 ## OUTPUT
+
+
+<img width="1169" height="135" alt="image" src="https://github.com/user-attachments/assets/a3b2f61e-3199-4110-8f2f-aa9d40c78c18" />
+
 
 
 Write a batch script that displays a simple menu with three options:
@@ -118,7 +203,45 @@ Exit – Exits the script with a goodbye message
 The script should repeatedly display the menu until the user chooses to exit. Use goto statements to handle menu navigation.
 
 
+@echo off
+
+:MENU
+echo ====================
+echo 1. Say Hello
+echo 2. Create a File
+echo 3. Exit
+echo ====================
+
+set /p choice=Enter your choice: 
+
+if %choice%==1 goto HELLO
+if %choice%==2 goto CREATE
+if %choice%==3 goto EXIT
+
+echo Invalid Choice
+goto MENU
+
+:HELLO
+echo Hello, World!
+pause
+goto MENU
+
+:CREATE
+echo This is a new file > newfile.txt
+echo File Created
+pause
+goto MENU
+
+:EXIT
+echo Goodbye
+pause
+exit
+
+
 ## OUTPUT
+
+<img width="1342" height="522" alt="image" src="https://github.com/user-attachments/assets/28d57918-a10d-49fd-880c-6fda21c5fa78" />
+
 
 
 
