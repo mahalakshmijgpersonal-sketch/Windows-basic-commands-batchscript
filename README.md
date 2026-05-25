@@ -23,6 +23,7 @@ Execute the necessary commands/batch file for the desired output.
 # WINDOWS COMMANDS:
 ## Exercise 1: Basic Directory and File Operations
 Create a directory named "my-folder"
+<img width="441" height="116" alt="image" src="https://github.com/user-attachments/assets/cc6624b6-bcdb-40f3-a10f-beae6c850d93" />
 
 ## COMMAND AND OUTPUT
 
