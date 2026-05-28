@@ -22,11 +22,24 @@ Execute the necessary commands/batch file for the desired output.
 
 # WINDOWS COMMANDS:
 ## Exercise 1: Basic Directory and File Operations
+## COMMAND AND OUTPUT
+Create the directory "my-folder"
+
+
+
+<img width="606" height="223" alt="image" src="https://github.com/user-attachments/assets/f1d119b2-d755-4f8c-bc9a-f0e58b35cbb9" />
+
+
 
 
 ## COMMAND AND OUTPUT
 
 Remove the directory "my-folder"
+
+
+
+<img width="842" height="371" alt="image" src="https://github.com/user-attachments/assets/2f0890f0-21e2-4857-9c04-8de68f661d0a" />
+
 
 
 
@@ -38,8 +51,10 @@ Remove the directory "my-folder"
 Create the file Rose.txt
 
 
+<img width="828" height="352" alt="image" src="https://github.com/user-attachments/assets/53500d5e-b732-47d7-8bfe-79be69aa94ce" />
 
-<img width="604" height="109" alt="image" src="https://github.com/user-attachments/assets/d9fed525-96a3-4826-98f9-668f3a8dbbe3" />
+
+
 
 ## COMMAND AND OUTPUT
 
@@ -48,14 +63,19 @@ Create the file hello.txt using echo and redirection
 
 
 
-<img width="660" height="137" alt="image" src="https://github.com/user-attachments/assets/0d348bd0-2e3e-4abb-9b00-8ae4b7daae37" />
+<img width="960" height="121" alt="image" src="https://github.com/user-attachments/assets/5649147d-cc1d-4be4-9bcf-a81ad0d50069" />
+
+
+
 
 ## COMMAND AND OUTPUT
 
 Copy the file hello.txt into the file hello1.txt
 
 
-<img width="635" height="117" alt="image" src="https://github.com/user-attachments/assets/39ec7767-558a-483f-84a1-2aa3303916a2" />
+
+<img width="892" height="143" alt="image" src="https://github.com/user-attachments/assets/abcdd0a6-4b7f-40bf-8f8e-09ef5ae5b195" />
+
 
 
 ## COMMAND AND OUTPUT
@@ -64,18 +84,42 @@ Remove the file hello1.txt
 
 
 
+<img width="782" height="221" alt="image" src="https://github.com/user-attachments/assets/f853f4d2-7049-4bbb-9b52-b0a7dce14613" />
+
+
+
 ## COMMAND AND OUTPUT
 
 List out the file hello1.txt in the current directory
+
+
+
+<img width="757" height="1059" alt="image" src="https://github.com/user-attachments/assets/a4efc4ab-40aa-4ede-9daa-3e4e814d0f20" />
+
+
 
 ## COMMAND AND OUTPUT
 
 List out all the associated file extensions 
 
+
+<img width="863" height="1106" alt="image" src="https://github.com/user-attachments/assets/2992ebb5-ffb2-4b38-9a12-0c2cf0539c90" />
+
+
+
+
+
 ## COMMAND AND OUTPUT
 
 
 Compare the file hello.txt and rose.txt
+
+
+
+<img width="826" height="188" alt="image" src="https://github.com/user-attachments/assets/9abda4f7-7a85-4f74-a527-781d9fcbb728" />
+
+
+
 
 ## COMMAND AND OUTPUT
 
@@ -95,7 +139,9 @@ pause
 ## OUTPUT
 
 
-<img width="1235" height="173" alt="image" src="https://github.com/user-attachments/assets/0fa4bfbf-3f48-4eda-ae98-f49f9a728f4b" />
+
+<img width="697" height="89" alt="image" src="https://github.com/user-attachments/assets/4d44098f-f71a-4d20-871c-39696b642ae7" />
+
 
 
 
@@ -142,8 +188,9 @@ pause
 
 
 ## OUTPUT
-<img width="1232" height="528" alt="image" src="https://github.com/user-attachments/assets/a93f7325-907e-4530-a65b-2618e676f754" />
 
+
+<img width="693" height="260" alt="image" src="https://github.com/user-attachments/assets/f73f084f-0b7d-4b93-bd1a-085be10b8242" />
 
 
 
@@ -167,7 +214,8 @@ pause
 
 
 
-<img width="1236" height="396" alt="image" src="https://github.com/user-attachments/assets/b88953c8-2821-4a08-8434-8c10159a86bb" />
+<img width="715" height="209" alt="image" src="https://github.com/user-attachments/assets/c94cd1e6-aac0-4941-ad79-3e5806784dcf" />
+
 
 
 
@@ -196,7 +244,9 @@ pause
 ## OUTPUT
 
 
-<img width="1169" height="135" alt="image" src="https://github.com/user-attachments/assets/a3b2f61e-3199-4110-8f2f-aa9d40c78c18" />
+
+<img width="696" height="111" alt="image" src="https://github.com/user-attachments/assets/91acea36-5a0d-477b-9898-a0529306e305" />
+
 
 
 
@@ -245,8 +295,10 @@ exit
 
 ## OUTPUT
 
-<img width="1342" height="522" alt="image" src="https://github.com/user-attachments/assets/28d57918-a10d-49fd-880c-6fda21c5fa78" />
 
+
+
+<img width="753" height="442" alt="image" src="https://github.com/user-attachments/assets/6649c596-c50d-4933-8f10-e0e71e8ea66d" />
 
 
 
