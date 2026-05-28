@@ -22,17 +22,14 @@ Execute the necessary commands/batch file for the desired output.
 
 # WINDOWS COMMANDS:
 ## Exercise 1: Basic Directory and File Operations
-Create a directory named "my-folder"
 
-
-<img width="441" height="116" alt="image" src="https://github.com/user-attachments/assets/cc6624b6-bcdb-40f3-a10f-beae6c850d93" />
 
 ## COMMAND AND OUTPUT
 
 Remove the directory "my-folder"
 
 
-<img width="541" height="111" alt="image" src="https://github.com/user-attachments/assets/4718c611-05f8-428c-9716-9bf7ad6932a3" />
+
 
 
 ## COMMAND AND OUTPUT
@@ -84,11 +81,12 @@ Compare the file hello.txt and rose.txt
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
-
+```
 @echo off
 set name=John
 echo Hello, %name%
 pause
+```
 
 
 
