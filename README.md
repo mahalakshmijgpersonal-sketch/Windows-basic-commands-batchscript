@@ -109,6 +109,7 @@ Display whether the number is odd or not.
 Ask the user if they want to check another number.
 Repeat the process if the user enters Y, and exit with a thank-you message if the user enters N.
 Handle invalid inputs for the continuation prompt (Y/N) gracefully.
+```
 @echo off
 
 :START
@@ -135,6 +136,8 @@ goto START
 echo Thank You
 pause
 
+```
+
 
 
 
@@ -148,6 +151,7 @@ pause
 
 
 Write a batch file that uses a FOR loop to iterate over a sequence of numbers (1 to 5) and displays each number with the label Number:. The output should pause at the end.
+```
 @echo off
 
 for /L %%i in (1,1,5) do (
@@ -155,6 +159,7 @@ for /L %%i in (1,1,5) do (
 )
 
 pause
+```
 
 
 
@@ -178,6 +183,7 @@ Use the IF EXIST conditional statement.
 Make sure the script works for files located in the same directory as the batch file.
 Use pause to keep the command window open after displaying the message.
 Expected Output (if the file exists):
+```
 @echo off
 
 if exist sample.txt (
@@ -187,7 +193,7 @@ if exist sample.txt (
 )
 
 pause
-
+```
 
 ## OUTPUT
 
@@ -202,7 +208,7 @@ Create a File – Creates a file named newfile.txt with the content This is a ne
 Exit – Exits the script with a goodbye message
 The script should repeatedly display the menu until the user chooses to exit. Use goto statements to handle menu navigation.
 
-
+```
 @echo off
 
 :MENU
@@ -236,6 +242,7 @@ goto MENU
 echo Goodbye
 pause
 exit
+```
 
 
 ## OUTPUT
